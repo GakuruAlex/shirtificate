@@ -26,7 +26,7 @@ class PDF(FPDF):
 def main():
     shirtificate = Shirtificate()
     shirt = shirtificate.open_shirt("shirtificate.png")
-    shirtificate.print_name_to_shirt(shirt, 'Alex Gakuru')
+    shirtificate.print_name_to_shirt(shirt, input("Name: "))
 
 if __name__ =="__main__":
     main()
