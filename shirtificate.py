@@ -1,6 +1,4 @@
 from fpdf import FPDF
-from fpdf import FPDF
-
 class PDF(FPDF):
     def header(self):
         self.image("./shirtificate.png", 10, 70, 190)
